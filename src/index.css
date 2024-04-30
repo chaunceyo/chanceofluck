@@ -1,0 +1,61 @@
+#root{
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 5000rem;
+}
+
+h2 {
+  
+  display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 1em;
+      margin-bottom: 10px; /* Add some space below the heading */
+    
+}
+
+
+div{
+  font-family: optima;
+  font-size: 20px;
+  color : darkblue;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 4px;
+   background-color: lightyellow;
+   display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+  
+  
+}
+
+
+
+h5 {
+  padding-left: 2em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh; /* Ensure the body fills the viewport height */
+    flex-direction: column; /* Stack child elements vertically */
+  background-color: blue;
+}
+
+label {
+  
+  padding-right: 2em;
+}
